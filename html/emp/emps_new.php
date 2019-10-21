@@ -1,0 +1,44 @@
+<?
+	include "../common.php";
+?>
+<html>
+<head>
+	<title>직원 프로그램</title>
+	<link rel="stylesheet" href="font.css">
+</head>
+
+<body>
+
+<form name="form1" method="post" action="emps_insert.php">
+
+<input type="hidden" name="no1" value="<?=$no1?>">
+
+<table width="500" border="1" cellpadding="2" bgcolor="lightyellow" style="border-collapse:collapse">
+  <tr>
+    <td width="100" align="center" bgcolor="lightblue">가족이름</td>
+    <td width="400" align="left">
+      <input type="text" name="name" size="10" value="">
+    </td>
+  </tr>
+  <tr>
+    <td width="100" align="center" bgcolor="lightblue">생일</td>
+    <td width="400" align="left">
+      <input type="text" name="birthday1" size="4" maxlength="4" value=""> -
+      <input type="text" name="birthday2" size="2" maxlength="2" value=""> -
+      <input type="text" name="birthday3" size="2" maxlength="2" value=""> 
+    </td>
+  </tr>
+</table>
+<br>
+<table width="500" border="0">
+  <tr>
+    <td align="center"> 
+	  <input type="submit" value="등록"> &nbsp
+	  <input type="button" value="이전화면으로" onclick="javascript:history.back();">
+	</td>
+  </tr>
+</table>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+A:link		{	COLOR: #0457A2; TEXT-DECORATION: none	}
+A:visited	{	COLOR: #585858; TEXT-DECORATION: none	}
+A:hover		{	COLOR: #585858; TEXT-DECORATION: underline	}
+A:active	{	text-decoration: underline; color: #585858	}
+
+TABLE { font-family:굴림; font-size:9pt; border-collapse:collapse;}
+TR { height: 22px; vertical-align:middle; text-align:center;}
+TD { padding: 2px;;}
+
+.font9 {font-size:9pt;font-family:verdana,굴림;vertical-align:middle;text-align:center;}
+.box9 {font-size:9pt;font-family:verdana,굴림;vertical-align:middle;text-align:center;border:1 solid #aaaaaa;}
+.bnfont{font-size:9pt;font-family:맑은 고딕;letter-spacing:-1px; text-decoration: none; FONT-WEIGHT:normal; vertical-align:middle; text-align:center; border:1 solid #000000;width:40px;height:20px;BACKGROUND-COLOR: #dddddd}
+.bnfont1{font-size:9pt;font-family:맑은 고딕;letter-spacing:-1px; text-decoration: none; FONT-WEIGHT:normal; vertical-align:middle; text-align:center; border:1 solid #000000;width:40px;height:22px;BACKGROUND-COLOR: #dddddd}
+
+.skytable table { font-family:맑은 고딕;font-size:9pt;border-collapse:collapse; border:1px solid #009fd4; }
+.skytable hr { height: 22px; vertical-align:middle; text-align:center;}
+.skytable tr { height: 22px; vertical-align:middle; text-align:center;}
+.skytable td { padding: 2px; border: 1px solid #009fd4; color:#eeeff;}
+
+.button {
+    BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid;	FONT-SIZE: 9pt; BORDER-LEFT: #666666 1px solid; FONT-SIZE: 9pt;
+	COLOR: #333333;	 BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #666666 1px solid; HEIGHT: 10px; WIDTH: 50px; face: 돋움
+}
+
+BODY	{ 
+scrollbar-face-color: #ffffff; 
+scrollbar-shadow-color: #ffffff; 
+scrollbar-highlight-color: #000000; 
+scrollbar-3dlight-color: #ffffff; 
+scrollbar-darkshadow-color: #000000; 
+scrollbar-track-color: #ffffff; 
+scrollbar-arrow-color: #000000f;
+}

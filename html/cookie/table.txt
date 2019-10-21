@@ -1,0 +1,11 @@
+﻿<< 작업순서 >>
+
+1) cookie폴더를 html에 복사를 한다.
+
+2) cookie.html  --> 추가 cookie_new.html  --> cookie_insert.html --> cookie.html
+                --> 수정 cookie_edit.html --> cookie_update.html --> cookie.html
+                --> 삭제                      cookie_delete.html --> cookie.html
+
+3) 값 형식     : 번호^^제품명^^수량
+   쿠키 개수   : n_data
+   쿠키값 배열 : data[]

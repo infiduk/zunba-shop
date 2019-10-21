@@ -1,0 +1,15 @@
+[input-def]
+0=*
+
+[input2]
+0=/home/shop35/
+
+[cmdline]
+0=
+
+[Dir Hist New Right Panel]
+0=/home/shop35/html
+1=/home/shop35
+
+[Dir Hist New Left Panel]
+0=/home/shop35/html
